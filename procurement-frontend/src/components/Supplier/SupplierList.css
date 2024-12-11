@@ -1,0 +1,105 @@
+/* Container for the whole page */
+.supplier-list-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Add New Supplier link */
+  .add-supplier-link {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-supplier-link a {
+    padding: 10px 20px;
+    background-color: #664939;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    
+  }
+  
+  .add-supplier-link a:hover {
+    background-color: #664939;
+  }
+  
+  /* Table container and table styling */
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th,
+  table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #664939;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Edit and Delete button styling */
+  /* Edit link styled as a green button with white text */
+/* Edit link styled as a green button with white text */
+.edit-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: rgb(101, 203, 203); /* Green background */
+  color: whitesmoke; /* White text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+}
+
+.edit-link:hover {
+  background-color: rgb(94, 203, 203); /* Darker green on hover */
+  color: whitesmoke; /* Ensure text stays white */
+}
+
+.delete-button {
+  padding: 8px 16px;
+  background-color: #dc3545; /* Red background for delete button */
+  color: white; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+
+  
+
+  
+  /* Center the table within the page */
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
